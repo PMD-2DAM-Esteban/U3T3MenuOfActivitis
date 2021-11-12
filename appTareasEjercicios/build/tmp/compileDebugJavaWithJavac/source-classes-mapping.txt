@@ -1,0 +1,10 @@
+dam/esteban/u3t3menuofactivitis/MyAdapter.java
+ dam.esteban.u3t3menuofactivitis.MyAdapter
+ dam.esteban.u3t3menuofactivitis.MyAdapter$MyViewHolder
+ dam.esteban.u3t3menuofactivitis.MyAdapter$OnItemClickListener
+dam/esteban/u3t3menuofactivitis/BuildConfig.java
+ dam.esteban.u3t3menuofactivitis.BuildConfig
+dam/esteban/u3t3menuofactivitis/ItemDelailActivity.java
+ dam.esteban.u3t3menuofactivitis.ItemDelailActivity
+dam/esteban/u3t3menuofactivitis/MainActivity.java
+ dam.esteban.u3t3menuofactivitis.MainActivity
