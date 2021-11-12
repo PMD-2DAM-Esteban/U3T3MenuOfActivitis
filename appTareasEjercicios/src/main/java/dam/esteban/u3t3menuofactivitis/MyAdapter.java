@@ -8,13 +8,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
+import dam.esteban.u3t3menuofactivitis.Model.Item;
+
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private OnItemClickListener listener;
-    private  String[] myDataSet;
+    private ArrayList<Item> myDataSet;
     //Constructor para añadir los datos a la lista
 
-    public MyAdapter(String[] myDataSet , OnItemClickListener listener) { this.myDataSet = myDataSet; this.listener=listener; }
+    public MyAdapter(ArrayList<Item> myDataSet , OnItemClickListener listener) { this.myDataSet = myDataSet; this.listener=listener; }
 
     static class MyViewHolder extends RecyclerView.ViewHolder{
 
@@ -49,7 +53,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
-        holder.bind(myDataSet[position], listener);
+        holder.bind(myDataSet.get(position), listener);
     }
 
     @Override
