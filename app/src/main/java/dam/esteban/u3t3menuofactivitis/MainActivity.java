@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -42,5 +43,11 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
     @Override
     public void onItemClick(String activityName) {
         Toast.makeText(this, activityName, Toast.LENGTH_SHORT).show();
+        try {
+            startActivity(new Intent(this, Class.forName(getPackageName()+ "."+activityName)));
+        }catch (ClassNotFoundException e){
+            e.printStackTrace();
+        }
+
     }
 }
