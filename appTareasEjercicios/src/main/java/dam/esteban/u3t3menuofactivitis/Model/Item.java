@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 public class Item implements Serializable {
 
-    private Drawable imagen;
+    private int imagen;
     private float version;
     private String nombreVersion;
     private int anyoLanzamiento;
@@ -16,7 +16,7 @@ public class Item implements Serializable {
     public Item() {
     }
 
-    public Item(Drawable imagen, float version, String nombreVersion, int anyoLanzamiento, int numeroApi, String url) {
+    public Item(int imagen, float version, String nombreVersion, int anyoLanzamiento, int numeroApi, String url) {
         this.imagen = imagen;
         this.version = version;
         this.nombreVersion = nombreVersion;
@@ -25,11 +25,11 @@ public class Item implements Serializable {
         this.url = url;
     }
 
-    public Drawable getImagen() {
+    public int getImagen() {
         return imagen;
     }
 
-    public void setImagen(Drawable imagen) {
+    public void setImagen(int imagen) {
         this.imagen = imagen;
     }
 

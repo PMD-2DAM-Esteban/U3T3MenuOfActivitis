@@ -7,6 +7,7 @@ INJECTED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjerc
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\esteb\.gradle\caches\transforms-3\25012fcc08d4c5cf5a2844c1a21a6fbe\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\esteb\.gradle\caches\transforms-3\81808270a5cc0559f2b9db87cb315b87\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\esteb\.gradle\caches\transforms-3\4ecd700c773cf5624732e3577602f1ea\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\5a89849bfd38ecbffaf5b00436d2e3bd\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\d8e35720d387af23b8661e2c3d29cdaa\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\esteb\.gradle\caches\transforms-3\ee0550e8848c5279ef1306690d07508f\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\esteb\.gradle\caches\transforms-3\a2fec87436ed4b48e2cd27f2bec00bd8\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -28,7 +29,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\e
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\esteb\.gradle\caches\transforms-3\467a835b52a179222c9cd595c4b15361\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\esteb\.gradle\caches\transforms-3\f25280aa28dd02b1b0fe5958898387a3\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\esteb\.gradle\caches\transforms-3\9f2676b1c0969ec8c1ba6828bf396548\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\5a89849bfd38ecbffaf5b00436d2e3bd\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\esteb\.gradle\caches\transforms-3\4f632648e53e556eed5f40f2824d9ac5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\80c89437fc250e842b2f71e0d613c9ff\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\esteb\.gradle\caches\transforms-3\bc210aa728a4eeea33d4ed954c0cfcd1\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -81,9 +81,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\es
 	android:theme
 		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:11:9-57
 activity#dam.esteban.u3t3menuofactivitis.ItemDelailActivity
-ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:12:9-17:51
-	android:screenOrientation
-		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:17:13-49
+ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:12:9-16:57
 	android:parentActivityName
 		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:16:13-55
 	android:label
@@ -93,11 +91,13 @@ ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercici
 	android:name
 		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:13:13-47
 activity#dam.esteban.u3t3menuofactivitis.MainActivity
-ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:17:9-26:20
+	android:screenOrientation
+		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:20:13-49
 	android:exported
-		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\esteb\Documents\GitHub\U3T3MenuOfActivitis\appTareasEjercicios\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
@@ -118,6 +118,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\esteb\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\esteb\.gradle\caches\transforms-3\81808270a5cc0559f2b9db87cb315b87\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\esteb\.gradle\caches\transforms-3\4ecd700c773cf5624732e3577602f1ea\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\esteb\.gradle\caches\transforms-3\4ecd700c773cf5624732e3577602f1ea\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\5a89849bfd38ecbffaf5b00436d2e3bd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\5a89849bfd38ecbffaf5b00436d2e3bd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\d8e35720d387af23b8661e2c3d29cdaa\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\d8e35720d387af23b8661e2c3d29cdaa\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\esteb\.gradle\caches\transforms-3\ee0550e8848c5279ef1306690d07508f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -160,8 +162,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\esteb\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\esteb\.gradle\caches\transforms-3\f25280aa28dd02b1b0fe5958898387a3\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\esteb\.gradle\caches\transforms-3\9f2676b1c0969ec8c1ba6828bf396548\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\esteb\.gradle\caches\transforms-3\9f2676b1c0969ec8c1ba6828bf396548\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\5a89849bfd38ecbffaf5b00436d2e3bd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\5a89849bfd38ecbffaf5b00436d2e3bd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\esteb\.gradle\caches\transforms-3\4f632648e53e556eed5f40f2824d9ac5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\esteb\.gradle\caches\transforms-3\4f632648e53e556eed5f40f2824d9ac5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\esteb\.gradle\caches\transforms-3\80c89437fc250e842b2f71e0d613c9ff\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41

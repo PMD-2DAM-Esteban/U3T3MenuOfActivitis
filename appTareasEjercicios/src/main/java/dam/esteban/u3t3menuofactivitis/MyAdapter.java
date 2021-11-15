@@ -1,8 +1,11 @@
 package dam.esteban.u3t3menuofactivitis;
 
+import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -21,18 +24,30 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public MyAdapter(ArrayList<Item> myDataSet , OnItemClickListener listener) { this.myDataSet = myDataSet; this.listener=listener; }
 
     static class MyViewHolder extends RecyclerView.ViewHolder{
+            ImageView androidImage;
+            TextView textApi;
+            TextView textVersion;
+            TextView textNombre;
 
-            TextView textView;
+        public MyViewHolder(View view) {
+            super(view);
 
-        public MyViewHolder(TextView textView) {
-            super(textView);
-            this.textView=textView;
+            this.androidImage= view.findViewById(R.id.imageAndroid);
+            this.textNombre = view.findViewById(R.id.textNombre);
+            this.textApi= view.findViewById(R.id.textApi);
+            this.textVersion = view.findViewById(R.id.textVersion);
         }
         //añade al viewHolder con datos
-        public void bind(String activityName, OnItemClickListener listener){
-            this.textView.setText(activityName);
+        public void bind(Item item, OnItemClickListener listener){
+            this.androidImage.setImageResource(item.getImagen());
+            this.textVersion.setText(textVersion.getText()+Float.toString(item.getVersion()));
+            this.textApi.setText(textApi.getText()+ Integer.toString(item.getNumeroApi()));
+            this.textNombre.setText(item.getNombreVersion());
 
-            this.textView.setOnClickListener(v -> listener.onItemClick(textView.getText().toString()));
+            this.androidImage.setOnClickListener(v -> listener.onItemClick(item));
+
+
+         //   this.textView.setOnClickListener(v -> listener.onItemClick(textView.getText().toString()));
         }
 
     }
@@ -43,11 +58,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         //Creamos el item View:
 
-        TextView tv = (TextView) LayoutInflater.from(parent.getContext())
-                .inflate(android.R.layout.simple_list_item_1, parent, false);
+        View vista= (View) LayoutInflater.from(parent.getContext())
+            .inflate(R.layout.card_view, parent, false);
 
-
-        return new MyViewHolder(tv);
+        return new MyViewHolder(vista);
     }
 
     @Override
@@ -58,11 +72,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public int getItemCount() {
-        return myDataSet.length;
+        return myDataSet.size();
     }
 
     public interface OnItemClickListener{
-        void onItemClick(String activityName);
+        void onItemClick(Item item);
     }
 
 

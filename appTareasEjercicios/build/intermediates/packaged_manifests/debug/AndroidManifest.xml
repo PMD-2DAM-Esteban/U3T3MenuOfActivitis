@@ -23,11 +23,11 @@
             android:name="dam.esteban.u3t3menuofactivitis.ItemDelailActivity"
             android:exported="true"
             android:label="@string/mi_titulo"
-            android:parentActivityName="dam.esteban.u3t3menuofactivitis.MainActivity"
-            android:screenOrientation="portrait" />
+            android:parentActivityName="dam.esteban.u3t3menuofactivitis.MainActivity" />
         <activity
             android:name="dam.esteban.u3t3menuofactivitis.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

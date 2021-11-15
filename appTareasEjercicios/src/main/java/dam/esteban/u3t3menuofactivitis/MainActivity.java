@@ -51,45 +51,23 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
     }
 
     @Override
-    public void onItemClick(String activityName) {
-        Toast.makeText(this, activityName, Toast.LENGTH_SHORT).show();
-        try {
+    public void onItemClick(Item item)  {
+      //  Toast.makeText(this, activityName, Toast.LENGTH_SHORT).show();
 
-            Bundle extrasDatos= new Bundle();
-            extrasDatos.putString("name", activityName);
-
-            Intent intent = new Intent(this, ItemDelailActivity.class);
-            intent.putExtras(extrasDatos);
-            startActivity(intent);
-
-
-            startActivity(new Intent(this, Class.forName(getPackageName()+ "."+activityName)));
-        }catch (ClassNotFoundException e){
-            e.printStackTrace();
-        }
+            startActivity(new Intent(this, ItemDelailActivity.class).putExtra("item", item));
 
     }
 
     public void insertarDatos(){
-        Drawable drawable1= getResources().getDrawable(R.drawable.android3);
-        Drawable drawable2= getResources().getDrawable(R.drawable.android4);
-        Drawable drawable2_1= getResources().getDrawable(R.drawable.android4_1);
-        Drawable drawable3= getResources().getDrawable(R.drawable.android5);
-        Drawable drawable4= getResources().getDrawable(R.drawable.android6);
-        Drawable drawable5= getResources().getDrawable(R.drawable.android7);
-        Drawable drawable6= getResources().getDrawable(R.drawable.android8);
-        Drawable drawable7= getResources().getDrawable(R.drawable.android9);
 
-
-
-        datos.add(new Item(drawable1, 3.1f, "HoneyComb", 2011, 12, "https://es.wikipedia.org/wiki/Android_Honeycomb"));
-        datos.add(new Item(drawable2, 4.0f, "Ice Cream Sandwich", 2011, 15, "https://es.wikipedia.org/wiki/Android_Ice_Cream_Sandwich"));
-        datos.add(new Item(drawable2_1, 4.4f, "KitKat", 2013, 20, "https://es.wikipedia.org/wiki/Android_KitKat"));
-        datos.add(new Item(drawable3, 5.0f, "Lollipop", 2014, 22, "https://es.wikipedia.org/wiki/Android_Lollipop"));
-        datos.add(new Item(drawable4, 6.0f, "Marshmallow", 2015, 23, "https://es.wikipedia.org/wiki/Android_Marshmallow"));
-        datos.add(new Item(drawable5, 7.0f, "Nougat", 2016, 25, "https://es.wikipedia.org/wiki/Android_Nougat"));
-        datos.add(new Item(drawable6, 8.0f, "Oreo", 2017, 27, "https://es.wikipedia.org/wiki/Android_Oreo"));
-        datos.add(new Item(drawable7, 9.0f, "Pie", 2018, 28, "https://es.wikipedia.org/wiki/Android_Pie"));
+        datos.add(new Item(R.drawable.android3, 3.1f, "HoneyComb", 2011, 12, "https://es.wikipedia.org/wiki/Android_Honeycomb"));
+        datos.add(new Item(R.drawable.android4, 4.0f, "Ice Cream Sandwich", 2011, 15, "https://es.wikipedia.org/wiki/Android_Ice_Cream_Sandwich"));
+        datos.add(new Item(R.drawable.android4_1, 4.4f, "KitKat", 2013, 20, "https://es.wikipedia.org/wiki/Android_KitKat"));
+        datos.add(new Item(R.drawable.android5, 5.0f, "Lollipop", 2014, 22, "https://es.wikipedia.org/wiki/Android_Lollipop"));
+        datos.add(new Item(R.drawable.android6, 6.0f, "Marshmallow", 2015, 23, "https://es.wikipedia.org/wiki/Android_Marshmallow"));
+        datos.add(new Item(R.drawable.android7, 7.0f, "Nougat", 2016, 25, "https://es.wikipedia.org/wiki/Android_Nougat"));
+        datos.add(new Item(R.drawable.android8, 8.0f, "Oreo", 2017, 27, "https://es.wikipedia.org/wiki/Android_Oreo"));
+        datos.add(new Item(R.drawable.android9, 9.0f, "Pie", 2018, 28, "https://es.wikipedia.org/wiki/Android_Pie"));
     }
 
 }
