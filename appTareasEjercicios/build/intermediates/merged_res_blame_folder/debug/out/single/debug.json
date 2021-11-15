@@ -44,8 +44,24 @@
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-mdpi\\android4_1.jpg"
     },
     {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_fondo.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxxhdpi\\fondo.jpg"
+    },
+    {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_android6.jpg.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xhdpi\\android6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_fondo.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-ldpi\\fondo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_madrid_centro.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xhdpi\\madrid_centro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_madrid_centro.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxxhdpi\\madrid_centro.jpg"
     },
     {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_android3.jpg.flat",
@@ -60,8 +76,16 @@
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-hdpi\\android4_1.jpg"
     },
     {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_madrid_centro.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-ldpi\\madrid_centro.jpg"
+    },
+    {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_android5.jpg.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxxhdpi\\android5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_fondo.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-hdpi\\fondo.jpg"
     },
     {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_android8.jpg.flat",
@@ -124,6 +148,10 @@
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-hdpi\\android7.jpg"
     },
     {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_madrid_centro.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxhdpi\\madrid_centro.jpg"
+    },
+    {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_android5.jpg.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxhdpi\\android5.jpg"
     },
@@ -152,12 +180,20 @@
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-mdpi\\android5.jpg"
     },
     {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_fondo.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xhdpi\\fondo.jpg"
+    },
+    {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_android4.jpg.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxxhdpi\\android4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_fondo.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-mdpi\\fondo.jpg"
     },
     {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_android8.jpg.flat",
@@ -204,12 +240,24 @@
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-mdpi\\android6.jpg"
     },
     {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_madrid_centro.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-mdpi\\madrid_centro.jpg"
+    },
+    {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_android4.jpg.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-hdpi\\android4.jpg"
     },
     {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_android4_1.jpg.flat",
         "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xhdpi\\android4_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_fondo.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-xxhdpi\\fondo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_madrid_centro.jpg.flat",
+        "source": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\src\\main\\res\\drawable-hdpi\\madrid_centro.jpg"
     },
     {
         "merged": "C:\\Users\\esteb\\Documents\\GitHub\\U3T3MenuOfActivitis\\appTareasEjercicios\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_android9.jpg.flat",
