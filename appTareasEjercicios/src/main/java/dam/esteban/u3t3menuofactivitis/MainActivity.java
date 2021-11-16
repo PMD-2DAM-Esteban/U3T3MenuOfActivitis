@@ -9,7 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
 
     ArrayList<Item> datos = new ArrayList<>();
     Button btADD, btDelAll, btRestore;
+    ImageView imagenVacio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
     private void setUI() {
         //TODO: Añadiomos los datos
         this.insertarDatos();
+        imagenVacio= findViewById(R.id.imagenVacio);
 
         recyclerView = findViewById(R.id.recyclerViewActivitis);
         //Bloqueamos el tamaño
@@ -93,20 +97,24 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
         datos.add(new Item(R.drawable.android3, 1.0f, "NuevoADD", 2021, 1, "https://es.wikipedia.org/wiki/Android"));
         mAdapter.notifyDataSetChanged();
         recyclerView.smoothScrollToPosition(datos.size());
+        imagenVacio.setVisibility(View.INVISIBLE);
+
     }
 
     public void dellAll() {
         datos.clear();
         mAdapter.notifyDataSetChanged();
+        imagenVacio.setVisibility(View.VISIBLE);
     }
 
     public void restore() {
         datos.clear();
         insertarDatos();
         mAdapter.notifyDataSetChanged();
+        imagenVacio.setVisibility(View.INVISIBLE);
     }
 
-    ItemTouchHelper.SimpleCallback itemTouch = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+    ItemTouchHelper.SimpleCallback itemTouch = new ItemTouchHelper.SimpleCallback(0,  ItemTouchHelper.RIGHT) {
         @Override
         public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
             return false;
@@ -114,9 +122,14 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
 
         @Override
         public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-
             datos.remove(viewHolder.getAdapterPosition());
             mAdapter.notifyDataSetChanged();
+
+            if (datos.size()==0){
+                imagenVacio.setVisibility(View.VISIBLE);
+            }else{
+                imagenVacio.setVisibility(View.INVISIBLE);
+            }
         }
     };
 
