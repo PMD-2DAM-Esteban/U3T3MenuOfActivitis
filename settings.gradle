@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "U3T3MenuOfActivitis"
 include ':app'
+include ':appTareasEjercicios'
+

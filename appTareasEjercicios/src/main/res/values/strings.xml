@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">U3T3MenuOfActivitis</string>
+
+    <string name="mi_titulo">Android Version Detail</string>
+    <string name="android_version">Version: </string>
+    <string name="android_api">Api: </string>
+    <string name="android_anyo">Año Lanazmiento: </string>
+    <string name="bt_add">ADD</string>
+    <string name="bt_deleteALL">DELETE ALL</string>
+    <string name="bt_restore">RESTORE</string>
+
+</resources>
