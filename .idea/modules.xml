@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/U3T3MenuOfActivitis.iml" filepath="$PROJECT_DIR$/.idea/modules/U3T3MenuOfActivitis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/U3T3MenuOfActivitis.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/U3T3MenuOfActivitis.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appTareasEjercicios/U3T3MenuOfActivitis.appTareasEjercicios.iml" filepath="$PROJECT_DIR$/.idea/modules/appTareasEjercicios/U3T3MenuOfActivitis.appTareasEjercicios.iml" />
     </modules>
   </component>
 </project>
