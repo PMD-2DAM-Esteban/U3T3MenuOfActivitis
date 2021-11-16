@@ -1789,7 +1789,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable fondo
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_foreground
@@ -1797,7 +1796,6 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable madrid_centro
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1933,9 +1931,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btAdd
-id btDeleteAll
-id btRestore
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2508,9 +2503,6 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
-string bt_add
-string bt_deleteALL
-string bt_restore
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

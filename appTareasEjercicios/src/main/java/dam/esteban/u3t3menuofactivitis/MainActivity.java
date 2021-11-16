@@ -1,15 +1,12 @@
 package dam.esteban.u3t3menuofactivitis;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -17,15 +14,14 @@ import java.util.ArrayList;
 import dam.esteban.u3t3menuofactivitis.Model.Item;
 
 public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItemClickListener {
-    //Esteban
+//Esteban
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
 
-    // private String [] myDataSet= {"Activity1", "Activity2", "Activity3"};
+   // private String [] myDataSet= {"Activity1", "Activity2", "Activity3"};
 
-    ArrayList<Item> datos = new ArrayList<>();
-    Button btADD, btDelAll, btRestore;
+    ArrayList<Item> datos= new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
         setUI();
     }
 
-    private void setUI() {
+    private void setUI(){
         //TODO: Añadiomos los datos
         this.insertarDatos();
 
@@ -50,33 +46,26 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
 
         //Le enviamos los datos al adapter
         mAdapter = new MyAdapter(datos, this);
+<<<<<<< HEAD
 
         //Añadimo el drag al card
         new ItemTouchHelper(itemTouch).attachToRecyclerView(recyclerView);
         //Añadimos el adapatador al recycler
+=======
+>>>>>>> parent of d968c92 (Ejercicio3 menos imagen vacio)
         recyclerView.setAdapter(mAdapter);
-
-        //TODO: Añadimos funcionalidad a los botones
-        btADD = findViewById(R.id.btAdd);
-        btDelAll = findViewById(R.id.btDeleteAll);
-        btRestore = findViewById(R.id.btRestore);
-
-        btADD.setOnClickListener(v -> addOne());
-        btDelAll.setOnClickListener(v -> dellAll());
-        btRestore.setOnClickListener(v -> restore());
-
 
     }
 
     @Override
-    public void onItemClick(Item item) {
-        //  Toast.makeText(this, activityName, Toast.LENGTH_SHORT).show();
+    public void onItemClick(Item item)  {
+      //  Toast.makeText(this, activityName, Toast.LENGTH_SHORT).show();
 
-        startActivity(new Intent(this, ItemDelailActivity.class).putExtra("item", item));
+            startActivity(new Intent(this, ItemDelailActivity.class).putExtra("item", item));
 
     }
 
-    public void insertarDatos() {
+    public void insertarDatos(){
 
         datos.add(new Item(R.drawable.android3, 3.1f, "HoneyComb", 2011, 12, "https://es.wikipedia.org/wiki/Android_Honeycomb"));
         datos.add(new Item(R.drawable.android4, 4.0f, "Ice Cream Sandwich", 2011, 15, "https://es.wikipedia.org/wiki/Android_Ice_Cream_Sandwich"));
@@ -88,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
         datos.add(new Item(R.drawable.android9, 9.0f, "Pie", 2018, 28, "https://es.wikipedia.org/wiki/Android_Pie"));
     }
 
+<<<<<<< HEAD
     public void addOne() {
 
         datos.add(new Item(R.drawable.android3, 1.0f, "NuevoADD", 2021, 1, "https://es.wikipedia.org/wiki/Android"));
@@ -121,4 +111,6 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
     };
 
 
+=======
+>>>>>>> parent of d968c92 (Ejercicio3 menos imagen vacio)
 }

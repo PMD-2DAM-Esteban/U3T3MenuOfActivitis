@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 dam/esteban/u3t3menuofactivitis/Model/Item.java
  dam.esteban.u3t3menuofactivitis.Model.Item
 dam/esteban/u3t3menuofactivitis/BuildConfig.java
  dam.esteban.u3t3menuofactivitis.BuildConfig
 dam/esteban/u3t3menuofactivitis/ItemDelailActivity.java
  dam.esteban.u3t3menuofactivitis.ItemDelailActivity
+=======
+>>>>>>> parent of d968c92 (Ejercicio3 menos imagen vacio)
 dam/esteban/u3t3menuofactivitis/MyAdapter.java
  dam.esteban.u3t3menuofactivitis.MyAdapter
  dam.esteban.u3t3menuofactivitis.MyAdapter$MyViewHolder
  dam.esteban.u3t3menuofactivitis.MyAdapter$OnItemClickListener
+<<<<<<< HEAD
  dam.esteban.u3t3menuofactivitis.MyAdapter$myEmptyHolder
+=======
+dam/esteban/u3t3menuofactivitis/Model/Item.java
+ dam.esteban.u3t3menuofactivitis.Model.Item
+dam/esteban/u3t3menuofactivitis/BuildConfig.java
+ dam.esteban.u3t3menuofactivitis.BuildConfig
+dam/esteban/u3t3menuofactivitis/ItemDelailActivity.java
+ dam.esteban.u3t3menuofactivitis.ItemDelailActivity
+>>>>>>> parent of d968c92 (Ejercicio3 menos imagen vacio)
 dam/esteban/u3t3menuofactivitis/MainActivity.java
  dam.esteban.u3t3menuofactivitis.MainActivity
- dam.esteban.u3t3menuofactivitis.MainActivity$1

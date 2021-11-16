@@ -109,8 +109,8 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         //añade al viewHolder con datos
         public void bind(Item item, OnItemClickListener listener){
             this.androidImage.setImageResource(item.getImagen());
-            this.textVersion.setText("Version: " + String.valueOf(item.getVersion()));
-            this.textApi.setText("Api: " + String.valueOf(item.getNumeroApi()));
+            this.textVersion.setText(textVersion.getText()+Float.toString(item.getVersion()));
+            this.textApi.setText(textApi.getText()+ Integer.toString(item.getNumeroApi()));
             this.textNombre.setText(item.getNombreVersion());
 
             this.androidImage.setOnClickListener(v -> listener.onItemClick(item));
