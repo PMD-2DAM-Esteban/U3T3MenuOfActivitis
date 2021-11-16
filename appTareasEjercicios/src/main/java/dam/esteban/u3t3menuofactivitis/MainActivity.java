@@ -47,13 +47,13 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
         layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
 
-        //Añadimos el adapatador al recycler
 
+        //Le enviamos los datos al adapter
         mAdapter = new MyAdapter(datos, this);
 
         //Añadimo el drag al card
         new ItemTouchHelper(itemTouch).attachToRecyclerView(recyclerView);
-
+        //Añadimos el adapatador al recycler
         recyclerView.setAdapter(mAdapter);
 
         //TODO: Añadimos funcionalidad a los botones
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements  MyAdapter.OnItem
         mAdapter.notifyDataSetChanged();
     }
 
-    ItemTouchHelper.SimpleCallback itemTouch = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+    ItemTouchHelper.SimpleCallback itemTouch = new ItemTouchHelper.SimpleCallback(0,  ItemTouchHelper.RIGHT) {
         @Override
         public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
             return false;
